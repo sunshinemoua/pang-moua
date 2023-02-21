@@ -1,0 +1,23 @@
+.form-outer-wrapper {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1rem;
+  width: fit-content;
+}
+
+.form-inner-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.input-title {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.button {
+  width: fit-content;
+}
