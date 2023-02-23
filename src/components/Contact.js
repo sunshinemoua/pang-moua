@@ -6,37 +6,32 @@ const Contact = () => {
     <div>
       <Navbar />
       <div className={classes["form-outer-wrapper"]}>
-        Contact Me
+        <span className={classes.title}>Get in Touch with Me</span>
         <form className={classes["form-inner-wrapper"]}>
+          <span className={classes["full-name-email-row"]}>
+            <input
+              className={classes["input-name"]}
+              placeholder="Full Name"
+              type="text"
+              name="name"
+            />
+            <input
+              className={classes["input-email"]}
+              placeholder="Email"
+              type="email"
+              id="email"
+            />
+          </span>
           <input
-            className={classes["input-title"]}
-            placeholder="First Name"
-            type="text"
-            name="name"
-          />
-
-          <input
-            className={classes["input-title"]}
-            placeholder="Last Name"
-            type="text"
-            name="name"
-          />
-
-          <input
-            className={classes["input-title"]}
-            placeholder="Email"
-            type="email"
-            id="email"
-          />
-
-          <input
-            className={classes["input-title"]}
-            placeholder="Message"
+            className={classes["input-message"]}
+            placeholder="Message..."
             type="text"
             name="message"
           />
 
-          <button className={classes.button}> Submit </button>
+          <span className={classes.button}>
+            <button> Send </button>
+          </span>
         </form>
       </div>
     </div>

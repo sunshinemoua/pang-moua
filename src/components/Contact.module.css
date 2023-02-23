@@ -1,23 +1,62 @@
 .form-outer-wrapper {
-  border: 1px solid;
   display: flex;
   flex-direction: column;
-  margin: 1rem;
+  align-items: center;
+  margin: auto;
   padding: 1rem;
-  width: fit-content;
+  height: 100vh;
+  width: 50vw;
 }
-
 .form-inner-wrapper {
   display: flex;
   flex-direction: column;
   margin: 1rem;
+  width: 100%;
 }
 
-.input-title {
-  margin: 0.5rem;
+.full-name-email-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: Verdana, sans-serif;
+}
+
+.input-name,
+.input-email {
+  width: 50%;
+  margin: 1rem;
   padding: 0.5rem;
+  border: none;
+  border-bottom: 1px solid #000;
 }
 
-.button {
+.input-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  padding: 0.5rem;
+  height: 30vh;
+  border: none;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.input-message::placeholder {
+  position: absolute;
+}
+button {
+  font-family: Verdana, sans-serif;
+  margin: 0 0.5rem;
+  padding: 0 0.5rem;
   width: fit-content;
+  border: none;
+  background-color: #fefefe;
+  float: right;
 }
