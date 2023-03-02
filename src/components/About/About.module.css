@@ -1,0 +1,26 @@
+.background {
+  display: flex;
+  background-color: #c3acd0;
+  height: 80vh;
+}
+
+.outer-div {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  justify-content: start;
+  align-items: end;
+  margin: 4rem;
+}
+.bio {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px #000 solid;
+  height: 50vh;
+  width: 25vw;
+}

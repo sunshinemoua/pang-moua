@@ -1,0 +1,23 @@
+.background {
+  display: flex;
+  background-color: #c3acd0;
+  height: 80vh;
+}
+
+.outer-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact {
+  text-decoration: none;
+  color: #fefefe;
+}

@@ -19,13 +19,6 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-transform: uppercase;
-  font-family: Verdana, sans-serif;
-}
 
 .input-name,
 .input-email {
@@ -33,7 +26,9 @@
   margin: 1rem;
   padding: 0.5rem;
   border: none;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #fefefe;
+  background-color: #c3acd0;
+  outline: none;
 }
 
 .input-message {
@@ -44,19 +39,29 @@
   padding: 0.5rem;
   height: 30vh;
   border: none;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
+  border-top: 1px solid #fefefe;
+  border-bottom: 1px solid #fefefe;
+  background-color: #c3acd0;
+  outline: none;
 }
 
 .input-message::placeholder {
   position: absolute;
 }
+
 button {
   font-family: Verdana, sans-serif;
+  color: #fefefe;
   margin: 0 0.5rem;
   padding: 0 0.5rem;
   width: fit-content;
   border: none;
-  background-color: #fefefe;
+  background-color: #c3acd0;
   float: right;
+}
+
+.background {
+  display: flex;
+  background-color: #c3acd0;
+  height: 80vh;
 }

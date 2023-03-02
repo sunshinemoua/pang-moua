@@ -1,0 +1,13 @@
+.background {
+  display: flex;
+  background-color: #c3acd0;
+  height: 80vh;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px #000 solid;
+  height: 10vh;
+  width: 20vw;
+}
