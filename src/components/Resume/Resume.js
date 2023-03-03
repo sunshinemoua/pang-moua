@@ -7,20 +7,36 @@ import Header from "../Header/Header";
 import classes from "./Resume.module.css";
 
 const Resume = () => {
+  const downloadResume = () => {
+    fetch("sample-resume.pdf").then((response) => {
+      response.blob().then((blob) => {
+        const fileURL = URL.createObjectURL(blob);
+        let resumeLink = document.createElement("a");
+        resumeLink.href = fileURL;
+        resumeLink.download = "sample-resume.pdf";
+        resumeLink.click();
+      });
+    });
+  };
+
   return (
     <div>
       <Navbar />
       <Card className={classes.background}>
         <div className={classes["outer-div"]}>
           <Header header={"Resume"} />
-          <span className={classes.actions}>
-            <Button className={classes.download} type="button">
+          <div className={classes.actions}>
+            <a
+              className={classes.btn}
+              href="/images/sample-resume.pdf"
+              download="sample-resume"
+            >
               Download my resume
-            </Button>
-            <NavLink className={classes.contact} to="/contact">
-              Contact me!
+            </a>
+            <NavLink className={classes.btn} to="/contact">
+              Contact me
             </NavLink>
-          </span>
+          </div>
         </div>
       </Card>
     </div>
