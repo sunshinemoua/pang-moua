@@ -16,7 +16,7 @@ const Resume = () => {
             <a
               className={classes.btn}
               href="/images/sample-resume.pdf"
-              download=""
+              download
             >
               Download my resume
             </a>
