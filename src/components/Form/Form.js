@@ -30,6 +30,10 @@ const Form = () => {
       .then(
         (result) => {
           console.log(result.text);
+          alert("message sent successfully");
+          setFromName("");
+          setEmail("");
+          setMessage("");
         },
         (error) => {
           console.log(error.text);

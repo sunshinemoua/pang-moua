@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Navbar from "../../Navbar/Navbar";
-import Button from "../Button/Button";
 import Card from "../Card/Card";
 import Header from "../Header/Header";
 import classes from "./Resume.module.css";
@@ -13,14 +12,18 @@ const Resume = () => {
       <Card className={classes.background}>
         <div className={classes["outer-div"]}>
           <Header header={"Resume"} />
-          <span className={classes.actions}>
-            <Button className={classes.download} type="button">
+          <div className={classes.actions}>
+            <a
+              className={classes.btn}
+              href="/images/sample-resume.pdf"
+              download
+            >
               Download my resume
-            </Button>
-            <NavLink className={classes.contact} to="/contact">
-              Contact me!
+            </a>
+            <NavLink className={classes.btn} to="/contact">
+              Contact me
             </NavLink>
-          </span>
+          </div>
         </div>
       </Card>
     </div>
