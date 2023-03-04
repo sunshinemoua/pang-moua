@@ -17,52 +17,52 @@ const Portfolio = () => {
               description={"THIS IS A SAMPLE DESCRIPTION"}
               src={"https://www.youtube.com/embed/ywBD6HiD8vQ"}
               title={"6 Reasons Why Computer Science is the Best Major"}
-            ></Video>
+            />
             <Video
               description={"THIS IS A SAMPLE VIDEO DESCRIPTION"}
               src={"https://www.youtube.com/embed/S1iAe-H4DaY"}
               title={"Top 7 Computer Science Books"}
-            ></Video>{" "}
+            />
             <Video
               description={"THIS IS A SAMPLE DESCRIPTION"}
               src={"https://www.youtube.com/embed/ywBD6HiD8vQ"}
               title={"6 Reasons Why Computer Science is the Best Major"}
-            ></Video>{" "}
+            />
             <Video
               description={"THIS IS A SAMPLE DESCRIPTION"}
               src={"https://www.youtube.com/embed/ywBD6HiD8vQ"}
               title={"6 Reasons Why Computer Science is the Best Major"}
-            ></Video>{" "}
+            />
             <Video
               description={"THIS IS A SAMPLE DESCRIPTION"}
               src={"https://www.youtube.com/embed/ywBD6HiD8vQ"}
               title={"6 Reasons Why Computer Science is the Best Major"}
-            ></Video>{" "}
+            />
             <Video
               description={"THIS IS A SAMPLE DESCRIPTION"}
               src={"https://www.youtube.com/embed/ywBD6HiD8vQ"}
               title={"6 Reasons Why Computer Science is the Best Major"}
-            ></Video>
+            />
             <Video
               description={"THIS IS A SAMPLE DESCRIPTION"}
               src={"https://www.youtube.com/embed/ywBD6HiD8vQ"}
               title={"6 Reasons Why Computer Science is the Best Major"}
-            ></Video>{" "}
+            />
             <Video
               description={"THIS IS A SAMPLE DESCRIPTION"}
               src={"https://www.youtube.com/embed/ywBD6HiD8vQ"}
               title={"6 Reasons Why Computer Science is the Best Major"}
-            ></Video>{" "}
+            />
             <Video
               description={"THIS IS A SAMPLE DESCRIPTION"}
               src={"https://www.youtube.com/embed/ywBD6HiD8vQ"}
               title={"6 Reasons Why Computer Science is the Best Major"}
-            ></Video>{" "}
+            />
             <Video
               description={"THIS IS A SAMPLE DESCRIPTION"}
               src={"https://www.youtube.com/embed/ywBD6HiD8vQ"}
               title={"6 Reasons Why Computer Science is the Best Major"}
-            ></Video>
+            />
           </div>
         </div>
       </Card>
