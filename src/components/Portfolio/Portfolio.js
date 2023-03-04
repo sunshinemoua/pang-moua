@@ -2,40 +2,67 @@ import React from "react";
 import Navbar from "../../Navbar/Navbar";
 import Card from "../Card/Card";
 import Header from "../Header/Header";
+import Video from "../Video/Video";
 import classes from "./Portfolio.module.css";
 
 const Portfolio = () => {
   return (
-    <div>
+    <div className={classes.page}>
       <Navbar />
       <Card className={classes.background}>
         <div className={classes["outer-div"]}>
           <Header header={"Work Samples"} />
-          <div className={classes.videos}>
-            <span>
-              description of video1
-              <Card className={classes.card}> Video Content</Card>
-            </span>
-            <span>
-              description of video2
-              <Card className={classes.card}> Video Content</Card>
-            </span>
-            <span>
-              description of video3
-              <Card className={classes.card}> Video Content</Card>
-            </span>
-            <span>
-              description of video4
-              <Card className={classes.card}> Video Content</Card>
-            </span>
-            <span>
-              description of video5
-              <Card className={classes.card}> Video Content</Card>
-            </span>
-            <span>
-              description of video6
-              <Card className={classes.card}> Video Content</Card>
-            </span>
+          <div className={classes["wrapper-videos"]}>
+            <Video
+              description={"THIS IS A SAMPLE DESCRIPTION"}
+              src={"https://www.youtube.com/embed/ywBD6HiD8vQ"}
+              title={"6 Reasons Why Computer Science is the Best Major"}
+            />
+            <Video
+              description={"THIS IS A SAMPLE VIDEO DESCRIPTION"}
+              src={"https://www.youtube.com/embed/S1iAe-H4DaY"}
+              title={"Top 7 Computer Science Books"}
+            />
+            <Video
+              description={"THIS IS A SAMPLE DESCRIPTION"}
+              src={"https://www.youtube.com/embed/ywBD6HiD8vQ"}
+              title={"6 Reasons Why Computer Science is the Best Major"}
+            />
+            <Video
+              description={"THIS IS A SAMPLE DESCRIPTION"}
+              src={"https://www.youtube.com/embed/ywBD6HiD8vQ"}
+              title={"6 Reasons Why Computer Science is the Best Major"}
+            />
+            <Video
+              description={"THIS IS A SAMPLE DESCRIPTION"}
+              src={"https://www.youtube.com/embed/ywBD6HiD8vQ"}
+              title={"6 Reasons Why Computer Science is the Best Major"}
+            />
+            <Video
+              description={"THIS IS A SAMPLE DESCRIPTION"}
+              src={"https://www.youtube.com/embed/ywBD6HiD8vQ"}
+              title={"6 Reasons Why Computer Science is the Best Major"}
+            />
+            <Video
+              description={"THIS IS A SAMPLE DESCRIPTION"}
+              src={"https://www.youtube.com/embed/ywBD6HiD8vQ"}
+              title={"6 Reasons Why Computer Science is the Best Major"}
+            />
+            <Video
+              description={"THIS IS A SAMPLE DESCRIPTION"}
+              src={"https://www.youtube.com/embed/ywBD6HiD8vQ"}
+              title={"6 Reasons Why Computer Science is the Best Major"}
+            />
+            <Video
+              description={"THIS IS A SAMPLE DESCRIPTION"}
+              src={"https://www.youtube.com/embed/ywBD6HiD8vQ"}
+              title={"6 Reasons Why Computer Science is the Best Major"}
+            />
+            <Video
+              description={"THIS IS A SAMPLE DESCRIPTION"}
+              src={"https://www.youtube.com/embed/ywBD6HiD8vQ"}
+              title={"6 Reasons Why Computer Science is the Best Major"}
+            />
           </div>
         </div>
       </Card>

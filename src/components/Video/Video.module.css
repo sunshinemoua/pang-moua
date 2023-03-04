@@ -1,0 +1,13 @@
+.video-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+}
