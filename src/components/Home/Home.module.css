@@ -2,14 +2,16 @@
   display: flex;
   background-color: #c3acd0;
   height: 80vh;
+  overflow: scroll;
 }
 
 .outer-div {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow: auto;
   width: 100%;
-  font-family: Arial Narrow, Helvetica, sans-serif;
+  font-family: Verdana, sans-serif;
   color: #fffbf5;
 }
 .header {
@@ -20,7 +22,7 @@
 .pang-moua {
   margin: 0.5rem;
   padding: 0.5rem;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 100;
 }
 
@@ -32,6 +34,5 @@
   margin: 1rem;
   padding: 1rem;
   text-decoration: none;
-  font-family: Arial Narrow, Helvetica, sans-serif;
   color: #fffbf5;
 }
