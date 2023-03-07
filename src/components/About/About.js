@@ -12,7 +12,7 @@ const About = () => {
         <div className={classes["outer-div"]}>
           <Header header={"About Pang Moua"} />
           <div className={classes.bio}>
-            <Card className={classes.card}> BIO </Card>
+            <Card className={classes.card}> INSERT BIO </Card>
           </div>
         </div>
       </Card>
