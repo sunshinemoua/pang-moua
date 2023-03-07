@@ -1,0 +1,50 @@
+@media screen and (max-width: 768px) {
+  .navlink-wrapper {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .pang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    letter-spacing: 8px;
+    font-weight: bold;
+    margin: 1rem;
+  }
+
+  .navlink-pages {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem;
+  }
+
+  .link {
+    letter-spacing: 2px;
+  }
+
+  .pang,
+  .link {
+    font-family: Verdana, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: grey;
+  }
+
+  .menu-item {
+    display: flex;
+    font-family: Verdana, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+  }
+  .link:hover {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    letter-spacing: 3px;
+    color: rgb(72, 71, 71);
+  }
+}

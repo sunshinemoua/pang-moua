@@ -1,26 +1,12 @@
-import { NavLink } from "react-router-dom";
-import classes from "./Navbar.module.css";
+import NavLinks from "./NavLinks/NavLinks";
+
+import MobileNav from "./MobileNav/MobileNav";
 
 const Navbar = () => {
   return (
-    <div className={classes["navbar-wrapper"]}>
-      <NavLink className={classes.pang} to="/">
-        Pang Moua
-      </NavLink>
-      <span className={classes["navbar-pages"]}>
-        <NavLink className={classes.link} to="/about">
-          About
-        </NavLink>
-        <NavLink className={classes.link} to="/portfolio">
-          Portfolio
-        </NavLink>
-        <NavLink className={classes.link} to="/resume">
-          Resume
-        </NavLink>
-        <NavLink className={classes.link} to="/contact">
-          Contact
-        </NavLink>
-      </span>
+    <div className="navbar">
+      <NavLinks />
+      <MobileNav />
     </div>
   );
 };

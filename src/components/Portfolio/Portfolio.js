@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../../Navbar/Navbar";
+import Navbar from "../../NavBar/NavBar";
 import Card from "../Card/Card";
 import Header from "../Header/Header";
 import Video from "../Video/Video";
