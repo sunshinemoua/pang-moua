@@ -1,9 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import NavBar from "../../NavBar/NavBar";
+import NavBar from "../../Navbar/Navbar";
 import Card from "../Card/Card";
 import classes from "./Home.module.css";
-NavBar;
 
 const Home = () => {
   return (
