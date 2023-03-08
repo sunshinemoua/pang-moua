@@ -9,8 +9,8 @@
   display: flex;
   flex-flow: column;
   width: 100%;
-  justify-content: start;
-  align-items: end;
+  justify-content: flex-start;
+  align-items: flex-end;
   margin: 4rem;
 }
 .bio {

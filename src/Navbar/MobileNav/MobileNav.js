@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { CiMenuBurger as Burger } from "react-icons/ci";
 import { NavLink } from "react-router-dom";
-import NavLinks from "../NavLinks/NavLinks";
 import classes from "./MobileNav.module.css";
 
 const MobileNav = () => {
