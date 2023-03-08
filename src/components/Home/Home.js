@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import NavBar from "../../NavBar/NavBar";
 import Card from "../Card/Card";
 import classes from "./Home.module.css";
+NavBar;
 
 const Home = () => {
   return (
