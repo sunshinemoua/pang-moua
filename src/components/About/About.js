@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "../../Navbar/Navbar";
+import NavBar from "../Navbar/Navbar";
 import Card from "../Card/Card";
 import Header from "../Header/Header";
 import classes from "./About.module.css";

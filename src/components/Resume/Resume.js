@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import NavBar from "../../Navbar/Navbar";
+import NavBar from "../Navbar/Navbar";
 import Card from "../Card/Card";
 import Header from "../Header/Header";
 import classes from "./Resume.module.css";
