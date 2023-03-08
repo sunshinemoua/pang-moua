@@ -1,7 +1,7 @@
 .background {
   display: flex;
   background-color: #c3acd0;
-  height: 80vh;
+  height: 100vh;
   overflow: scroll;
 }
 
@@ -14,6 +14,7 @@
   height: 100vh;
   width: 50vw;
 }
+
 .form-inner-wrapper {
   display: flex;
   flex-direction: column;
@@ -23,13 +24,11 @@
 
 .full-name-email-row {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 
 .input-name,
 .input-email {
-  width: 50%;
   margin: 1rem;
   padding: 0.5rem;
   border: none;
@@ -74,4 +73,42 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0px 40rem #c3acd0 inset;
+}
+
+@media screen and (min-width: 320px) {
+  h1 {
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+
+  .full-name-email-row {
+    flex-direction: column;
+  }
+
+  .input-name,
+  .input-email {
+    width: 80%;
+  }
+
+  .input-message {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .full-name-email-row {
+    flex-direction: row;
+  }
+
+  .input-name,
+  .input-email {
+    width: 50%;
+  }
+
+  .input-message {
+    width: auto;
+  }
 }
