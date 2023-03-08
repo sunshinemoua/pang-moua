@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../../NavBar/NavBar";
+import NavBar from "../../NavBar/NavBar";
 import Card from "../Card/Card";
 import Header from "../Header/Header";
 import classes from "./About.module.css";
@@ -7,7 +7,7 @@ import classes from "./About.module.css";
 const About = () => {
   return (
     <div>
-      <Navbar />
+      <NavBar />
       <Card className={classes.background}>
         <div className={classes["outer-div"]}>
           <Header header={"About Pang Moua"} />

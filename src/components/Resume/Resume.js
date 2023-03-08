@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Navbar from "../../NavBar/NavBar";
+import NavBar from "../../NavBar/NavBar";
 import Card from "../Card/Card";
 import Header from "../Header/Header";
 import classes from "./Resume.module.css";
@@ -8,7 +8,7 @@ import classes from "./Resume.module.css";
 const Resume = () => {
   return (
     <div>
-      <Navbar />
+      <NavBar />
       <Card className={classes.background}>
         <div className={classes["outer-div"]}>
           <Header header={"Resume"} />

@@ -1,8 +1,7 @@
 import NavLinks from "./NavLinks/NavLinks";
-
 import MobileNav from "./MobileNav/MobileNav";
 
-const Navbar = () => {
+const NavBar = () => {
   return (
     <div className="navbar">
       <NavLinks />
@@ -11,4 +10,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavBar;

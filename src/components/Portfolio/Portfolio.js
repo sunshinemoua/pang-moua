@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../../NavBar/NavBar";
+import NavBar from "../../NavBar/NavBar";
 import Card from "../Card/Card";
 import Header from "../Header/Header";
 import Video from "../Video/Video";
@@ -8,7 +8,7 @@ import classes from "./Portfolio.module.css";
 const Portfolio = () => {
   return (
     <div className={classes.page}>
-      <Navbar />
+      <NavBar />
       <Card className={classes.background}>
         <div className={classes["outer-div"]}>
           <Header header={"Work Samples"} />

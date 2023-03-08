@@ -1,13 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Navbar from "../../NavBar/NavBar";
+import NavBar from "../../NavBar/NavBar";
 import Card from "../Card/Card";
 import classes from "./Home.module.css";
 
 const Home = () => {
   return (
     <div>
-      <Navbar />
+      <NavBar />
       <Card className={classes.background}>
         <div className={classes["outer-div"]}>
           <span className={classes.header}>
