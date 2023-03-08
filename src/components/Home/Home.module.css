@@ -33,7 +33,7 @@
 }
 
 /* Smaller devices */
-@media screen and (min-width: 320px) and (max-width: 400px) {
+@media screen and (min-width: 320px) {
   .pang-moua {
     font-size: 1.5rem;
   }
@@ -52,7 +52,7 @@
 }
 
 /* Most phones */
-@media screen and (min-width: 401px) {
+@media screen and (min-width: 400px) {
   .pang-moua {
     font-size: 2rem;
   }

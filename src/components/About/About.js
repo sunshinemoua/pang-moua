@@ -9,11 +9,15 @@ const About = () => {
     <div>
       <NavBar />
       <Card className={classes.background}>
-        <div className={classes["outer-div"]}>
-          <Header header={"About Pang Moua"} />
-          <div className={classes.bio}>
+        <div className={classes["page-wrapper"]}>
+          <img
+            src="./images/ariana-grande-album-cover.jpeg"
+            alt="Ariana Grande Album Cover"
+          ></img>
+          <div className={classes["bio-div"]}>
+            <Header header={"About Pang"} />
             <Card className={classes.card}> INSERT BIO </Card>
-          </div>
+          </div>{" "}
         </div>
       </Card>
     </div>

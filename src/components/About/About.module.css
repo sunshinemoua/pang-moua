@@ -1,27 +1,68 @@
 .background {
-  display: flex;
   background-color: #c3acd0;
-  height: 80vh;
+  height: 100vh;
   overflow: scroll;
 }
 
-.outer-div {
+.page-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.bio-div {
   display: flex;
   flex-flow: column;
-  width: 100%;
-  justify-content: flex-start;
-  align-items: flex-end;
-  margin: 4rem;
+  margin: 1rem;
 }
-.bio {
+
+img {
   display: flex;
-  flex-direction: row;
+  margin: 1rem;
+  height: auto;
 }
 
 .card {
-  margin: 1rem;
+  display: flex;
   padding: 1rem;
-  border: 1px #000 solid;
   height: 50vh;
-  width: 25vw;
+  border: 1px #000 solid;
+}
+
+@media screen and (min-width: 320px) {
+  .page-wrapper {
+    flex-direction: column;
+  }
+
+  .bio-div {
+    width: 90%;
+  }
+
+  img {
+    align-items: center;
+    margin-top: 5rem;
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .page-wrapper {
+    flex-direction: row;
+  }
+
+  img {
+    align-items: flex-start;
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .bio-div {
+    align-items: center;
+    width: 100%;
+  }
+
+  .card {
+    width: 75%;
+  }
 }
