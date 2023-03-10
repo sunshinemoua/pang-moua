@@ -45,7 +45,7 @@ const Form = () => {
     <div>
       <Card className={classes.background}>
         <div className={classes["form-outer-wrapper"]}>
-          <Header header={"Get in Touch With Me"} />
+          <Header className={classes.header} header={"Get in Touch With Me"} />
           <form className={classes["form-inner-wrapper"]} onSubmit={sendEmail}>
             <span className={classes["full-name-email-row"]}>
               <input
