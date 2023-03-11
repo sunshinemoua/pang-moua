@@ -29,7 +29,7 @@
 
 .input-name,
 .input-email {
-  width: 50%;
+  width: auto;
   margin: 1rem;
   padding: 0.5rem;
   border: none;
@@ -43,6 +43,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 90%;
   font-family: Verdana, sans-serif;
   margin: 1rem;
   padding: 0.5rem;
@@ -68,6 +69,20 @@ button {
   border: none;
   background-color: #c3acd0;
   float: right;
+}
+
+button:hover {
+  color: #636363;
+}
+
+button:disabled:hover {
+  color: red;
+}
+
+.error {
+  display: flex;
+  margin-left: 1rem;
+  color: red;
 }
 
 input:-webkit-autofill,
