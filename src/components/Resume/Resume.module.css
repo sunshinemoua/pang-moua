@@ -1,7 +1,7 @@
 .background {
   display: flex;
   background-color: #c3acd0;
-  height: 80vh;
+  height: 100vh;
   overflow: scroll;
 }
 

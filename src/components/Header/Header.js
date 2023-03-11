@@ -1,11 +1,7 @@
 import React from "react";
-import classes from "./Header.module.css";
+import "./Header.module.css";
 const Header = ({ header }) => {
-  return (
-    <div className={classes.header}>
-      <h1>{header}</h1>
-    </div>
-  );
+  return <h1>{header}</h1>;
 };
 
 export default Header;
