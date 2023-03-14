@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import NavBar from "../Navbar/Navbar";
 import Card from "../Card/Card";
 import classes from "./Home.module.css";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
           </NavLink>
         </div>
       </Card>
+      <Footer />
     </div>
   );
 };
