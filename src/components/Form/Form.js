@@ -51,64 +51,59 @@ const Form = () => {
   };
 
   return (
-    <div>
-      <Card className={classes.background}>
-        <div className={classes["form-outer-wrapper"]}>
-          <Header header={"Get in Touch With Me"} />
-          <form
-            className={classes["form-inner-wrapper"]}
-            onSubmit={handleSubmit}
-          >
-            <span className={classes["full-name-email-row"]}>
-              <span className={classes["full-name-error"]}>
-                <input
-                  className={classes["input-name"]}
-                  placeholder="Full Name"
-                  type="text"
-                  name="name"
-                  value={from_name}
-                  onChange={(event) => setFromName(event.target.value)}
-                />
-                {!from_name && clicked && (
-                  <span className={classes.error}>Please enter a name</span>
-                )}
-              </span>
-              <span className={classes["email-error"]}>
-                <input
-                  className={classes["input-email"]}
-                  placeholder="Email"
-                  type="email"
-                  id="email"
-                  value={email}
-                  onChange={(event) => setEmail(event.target.value)}
-                />
-
-                {!email && clicked && (
-                  <span className={classes.error}>Please enter an email</span>
-                )}
-              </span>
-            </span>
-            <span className={classes["message-error"]}>
-              <textarea
-                className={classes["input-message"]}
-                placeholder="Message..."
+    <Card className={classes.background}>
+      <Header header={"Get in Touch With Me"} />
+      <form className={classes.wrapper} onSubmit={handleSubmit}>
+        <div className={classes["inner-wrapper"]}>
+          <div className={classes["full-name-email"]}>
+            <div className={classes["input-one"]}>
+              <input
+                className={classes["input-two"]}
+                placeholder="Full Name"
                 type="text"
-                name="message"
-                value={message}
-                onChange={(event) => setMessage(event.target.value)}
+                name="name"
+                value={from_name}
+                onChange={(event) => setFromName(event.target.value)}
               />
-              {!message && clicked && (
-                <span className={classes.error}>Please enter a message</span>
+              {!from_name && clicked && (
+                <span className={classes.error}>Please enter a name</span>
               )}
-            </span>
+            </div>
+            <div className={classes["input-one"]}>
+              <input
+                className={classes["input-two"]}
+                placeholder="Email"
+                type="email"
+                id="email"
+                value={email}
+                onChange={(event) => setEmail(event.target.value)}
+              />
 
-            <span className={classes.button}>
+              {!email && clicked && (
+                <span className={classes.error}>Please enter an email</span>
+              )}
+            </div>
+          </div>
+          <div className={classes.message}>
+            <textarea
+              className={classes["input-two"]}
+              placeholder="Message..."
+              type="text"
+              name="message"
+              value={message}
+              rows="15"
+              onChange={(event) => setMessage(event.target.value)}
+            />
+            {!message && clicked && (
+              <span className={classes.error}>Please enter a message</span>
+            )}
+            <div className={classes.button}>
               <button type="submit">Send</button>
-            </span>
-          </form>
+            </div>
+          </div>
         </div>
-      </Card>
-    </div>
+      </form>
+    </Card>
   );
 };
 
