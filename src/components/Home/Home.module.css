@@ -1,8 +1,7 @@
 .background {
   display: flex;
   background-color: #c3acd0;
-  height: 80vh;
-  overflow: scroll;
+  height: 100vh;
 }
 
 .outer-div {

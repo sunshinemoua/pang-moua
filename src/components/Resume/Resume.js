@@ -4,6 +4,7 @@ import NavBar from "../Navbar/Navbar";
 import Card from "../Card/Card";
 import Header from "../Header/Header";
 import classes from "./Resume.module.css";
+import Footer from "../Footer/Footer";
 
 const Resume = () => {
   return (
@@ -26,6 +27,7 @@ const Resume = () => {
           </div>
         </div>
       </Card>
+      <Footer />
     </div>
   );
 };

@@ -1,3 +1,16 @@
 .wrapper {
-  color: red;
+  background-color: #c3acd0;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.links {
+  text-decoration: none;
+  font-family: Verdana, sans-serif;
+  color: #fefefe;
+}
+
+.links:visited {
+  color: #fefefe;
 }

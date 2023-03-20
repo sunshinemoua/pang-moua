@@ -2,7 +2,6 @@
   display: flex;
   background-color: #c3acd0;
   height: 100vh;
-  overflow: scroll;
 }
 
 .outer-div {

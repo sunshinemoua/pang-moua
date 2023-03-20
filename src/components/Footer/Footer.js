@@ -5,9 +5,15 @@ import classes from "./Footer.module.css";
 const Footer = () => {
   return (
     <div className={classes.wrapper}>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="portfolio">Portfolio</NavLink>
-      <NavLink to="/contact">Contact</NavLink>
+      <NavLink className={classes.links} to="/">
+        Home
+      </NavLink>
+      <NavLink className={classes.links} to="/portfolio">
+        Portfolio
+      </NavLink>
+      <NavLink className={classes.links} to="/contact">
+        Contact
+      </NavLink>
     </div>
   );
 };
