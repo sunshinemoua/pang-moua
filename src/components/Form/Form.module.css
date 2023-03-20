@@ -1,7 +1,6 @@
 .background {
   background-color: #c3acd0;
   height: 100vh;
-  overflow: scroll;
 }
 .wrapper {
   display: flex;

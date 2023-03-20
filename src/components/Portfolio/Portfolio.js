@@ -4,6 +4,7 @@ import Card from "../Card/Card";
 import Header from "../Header/Header";
 import Video from "../Video/Video";
 import classes from "./Portfolio.module.css";
+import Footer from "../Footer/Footer";
 
 const Portfolio = () => {
   return (
@@ -66,6 +67,7 @@ const Portfolio = () => {
           </div>
         </div>
       </Card>
+      <Footer />
     </div>
   );
 };

@@ -3,6 +3,7 @@ import NavBar from "../Navbar/Navbar";
 import Card from "../Card/Card";
 import Header from "../Header/Header";
 import classes from "./About.module.css";
+import Footer from "../Footer/Footer";
 
 const About = () => {
   return (
@@ -17,9 +18,10 @@ const About = () => {
           <div className={classes["bio-div"]}>
             <Header header={"About Pang"} />
             <Card className={classes.card}> INSERT BIO </Card>
-          </div>{" "}
+          </div>
         </div>
       </Card>
+      <Footer />
     </div>
   );
 };

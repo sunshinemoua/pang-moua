@@ -4,10 +4,11 @@ import About from "./components/About/About";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Resume from "./components/Resume/Resume";
 import Contact from "./components/Contact/Contact";
+import classes from "./App.module.css";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className={classes.App}>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />

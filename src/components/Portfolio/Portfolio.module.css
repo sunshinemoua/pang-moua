@@ -2,7 +2,6 @@
   display: flex;
   height: 100vh;
   background-color: #c3acd0;
-  overflow: scroll;
 }
 
 .wrapper-videos {
