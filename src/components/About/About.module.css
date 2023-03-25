@@ -15,7 +15,7 @@
   margin: 1rem;
 }
 
-img {
+.ari {
   display: flex;
   margin: 1rem;
   height: auto;
@@ -37,7 +37,7 @@ img {
     width: 90%;
   }
 
-  img {
+  .ari {
     align-items: center;
     margin-top: 2rem;
     width: 90%;
@@ -49,7 +49,7 @@ img {
     flex-direction: row;
   }
 
-  img {
+  .ari {
     align-items: flex-start;
     margin-top: 2rem;
     padding: 1rem;

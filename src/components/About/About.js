@@ -12,6 +12,7 @@ const About = () => {
       <Card className={classes.background}>
         <div className={classes["page-wrapper"]}>
           <img
+            className={classes.ari}
             src="./images/ariana-grande-album-cover.jpeg"
             alt="Ariana Grande Album Cover"
           ></img>
