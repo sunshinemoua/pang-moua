@@ -18,13 +18,13 @@ const Home = () => {
               Hmong, English, and ASL Interpreter
             </h2>
           </span>
+          <BackgroundLogo />
           <NavLink className={classes["learn-more"]} to="/portfolio">
             Learn More {">>"}
           </NavLink>
           <span className={classes.logo}></span>
         </div>
       </Card>
-
       <Footer />
     </div>
   );

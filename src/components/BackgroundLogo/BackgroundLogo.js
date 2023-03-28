@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./PM-logo-transparent.png";
 import classes from "./BackgroundLogo.module.css";
 
 const BackgroundLogo = () => {
