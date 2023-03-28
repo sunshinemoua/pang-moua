@@ -4,6 +4,7 @@ import Card from "../Card/Card";
 import Header from "../Header/Header";
 import classes from "./About.module.css";
 import Footer from "../Footer/Footer";
+import BackgroundLogo from "../BackgroundLogo/BackgroundLogo";
 
 const About = () => {
   return (
@@ -20,6 +21,7 @@ const About = () => {
             <Header header={"About Pang"} />
             <Card className={classes.card}> INSERT BIO </Card>
           </div>
+          <BackgroundLogo />
         </div>
       </Card>
       <Footer />

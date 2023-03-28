@@ -5,6 +5,7 @@ import Header from "../Header/Header";
 import Video from "../Video/Video";
 import classes from "./Portfolio.module.css";
 import Footer from "../Footer/Footer";
+import BackgroundLogo from "../BackgroundLogo/BackgroundLogo";
 
 const Portfolio = () => {
   return (
