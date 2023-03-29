@@ -4,6 +4,7 @@ import NavBar from "../Navbar/Navbar";
 import Card from "../Card/Card";
 import classes from "./Home.module.css";
 import Footer from "../Footer/Footer";
+import BackgroundLogo from "../BackgroundLogo/BackgroundLogo";
 
 const Home = () => {
   return (
@@ -17,9 +18,11 @@ const Home = () => {
               Hmong, English, and ASL Interpreter
             </h2>
           </span>
+          <BackgroundLogo />
           <NavLink className={classes["learn-more"]} to="/portfolio">
             Learn More {">>"}
           </NavLink>
+          <span className={classes.logo}></span>
         </div>
       </Card>
       <Footer />

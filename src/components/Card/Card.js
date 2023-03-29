@@ -1,5 +1,4 @@
 import React from "react";
-import "./Card.module.css";
 
 const Card = ({ children, ...props }) => {
   let myClass = `${props.className}`;

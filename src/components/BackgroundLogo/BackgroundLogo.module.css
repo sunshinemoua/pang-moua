@@ -1,0 +1,12 @@
+.wrapper {
+  position: absolute;
+  top: 80vh;
+  right: 0;
+}
+.logo {
+  background-image: url("./PM-logo-transparent.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50vw;
+  height: 20vh;
+}
