@@ -2,6 +2,14 @@
   background-color: #c3acd0;
   height: 100vh;
 }
+.outer-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -67,7 +75,7 @@ input:-webkit-autofill:focus {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .full-name-email {
     flex-direction: column;
   }
