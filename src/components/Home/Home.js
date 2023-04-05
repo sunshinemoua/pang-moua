@@ -22,7 +22,6 @@ const Home = () => {
           <NavLink className={classes["learn-more"]} to="/portfolio">
             Learn More {">>"}
           </NavLink>
-          <span className={classes.logo}></span>
         </div>
       </Card>
       <Footer />
