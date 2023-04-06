@@ -1,24 +1,34 @@
 .background {
   display: flex;
   background-color: #c3acd0;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .outer-div {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
   margin: 2rem;
   padding: 1rem;
-  overflow: auto;
   width: 100%;
   font-family: Verdana, sans-serif;
   color: #fffbf5;
 }
-.header {
+.header-images {
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+}
+.inner-header-wrapper {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+}
+
+.pang-photo {
+  width: 25%;
+  height: auto;
 }
 
 .learn-more {
@@ -31,6 +41,31 @@
   margin: 0.5rem;
   padding: 0.5rem;
   font-weight: 100;
+}
+
+.info-img-left-wrapper,
+.info-img-right-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.info-img-left-wrapper {
+  flex-direction: row;
+}
+.info-img-right-wrapper {
+  flex-direction: row-reverse;
+}
+.photo {
+  width: 25%;
+  height: auto;
+}
+
+.text-info {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
 }
 
 /* Smaller devices */
@@ -73,11 +108,11 @@
 /* Most tablets, desktops and wider screens */
 @media screen and (min-width: 768px) {
   .pang-moua {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
   }
 
   .services {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .learn-more {
     font-size: 1rem;
