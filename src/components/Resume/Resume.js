@@ -11,7 +11,7 @@ const Resume = () => {
   return (
     <div>
       <NavBar />
-      <Card className={classes.background}>
+      <div className={classes.background}>
         <div className={classes["outer-div"]}>
           <Header header={"Resume"} />
           <div className={classes.actions}>
@@ -28,7 +28,7 @@ const Resume = () => {
           </div>
         </div>
         <BackgroundLogo />
-      </Card>
+      </div>
       <Footer />
     </div>
   );

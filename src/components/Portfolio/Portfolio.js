@@ -11,7 +11,7 @@ const Portfolio = () => {
   return (
     <div className={classes.page}>
       <NavBar />
-      <Card className={classes.background}>
+      <div className={classes.background}>
         <div className={classes["outer-div"]}>
           <Header header={"Work Samples"} />
           <div className={classes["wrapper-videos"]}>
@@ -67,7 +67,7 @@ const Portfolio = () => {
             />
           </div>
         </div>
-      </Card>
+      </div>
       <Footer />
     </div>
   );

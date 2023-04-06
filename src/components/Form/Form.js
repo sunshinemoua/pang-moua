@@ -51,7 +51,7 @@ const Form = () => {
   };
 
   return (
-    <Card className={classes.background}>
+    <div className={classes.background}>
       <div className={classes["outer-div"]}>
         <Header header={"Get in Touch With Me"} />
         <form className={classes.wrapper} onSubmit={handleSubmit}>
@@ -105,7 +105,7 @@ const Form = () => {
           </div>
         </form>
       </div>
-    </Card>
+    </div>
   );
 };
 
