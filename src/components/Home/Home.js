@@ -39,21 +39,38 @@ const Home = () => {
 
           <Card
             className={classes["info-img-left-wrapper"]}
-            header="Hmong Interpreter"
+            header="Compassionate Hmong Interpreter"
             info={paragraph1}
-            src="./images/asl1.png"
+            src="./images/hmong1.png"
+            toLink="./portofolio"
           />
           <Card
             className={classes["info-img-right-wrapper"]}
-            header="H Interpreter"
-            info={paragraph1}
+            header="Experienced ASL Interpreter"
+            info={paragraph2}
             src="./images/asl2.png"
+            toLink="./portofolio"
           />
           <Card
             className={classes["info-img-left-wrapper"]}
-            header="Hmong terpreter"
+            header="Remote Services"
             info={paragraph1}
-            src="./images/hmong1.png"
+            src="./images/passionate1.jpeg"
+            toLink="./portofolio"
+          />
+          <Card
+            className={classes["info-img-right-wrapper"]}
+            header="In-Person Services"
+            info={paragraph2}
+            src="./images/passionate2.png"
+            toLink="./portofolio"
+          />
+          <Card
+            className={classes["info-img-left-wrapper"]}
+            header="Experience"
+            info={paragraph2}
+            src="./images/compassion1.png"
+            toLink="./portofolio"
           />
 
           {/* <BackgroundLogo /><NavLink className={classes["learn-more"]} to="/portfolio">
