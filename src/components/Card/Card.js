@@ -9,9 +9,11 @@ const Card = ({ className, header, info, src, toLink }) => {
       <div className={classes["text-info"]}>
         <h2>{header}</h2>
         <span>{info}</span>
-        <NavLink className={classes["learn-more"]} to={toLink}>
-          Learn More
-        </NavLink>
+        {toLink !== "" && (
+          <NavLink className={classes["learn-more"]} to={toLink}>
+            Learn More
+          </NavLink>
+        )}
       </div>
     </div>
   );
