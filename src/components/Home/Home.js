@@ -42,35 +42,35 @@ const Home = () => {
             header="Compassionate Hmong Interpreter"
             info={paragraph1}
             src="./images/hmong1.png"
-            toLink="./portofolio"
+            toLink="./portfolio"
           />
           <Card
             className={classes["info-img-right-wrapper"]}
             header="Experienced ASL Interpreter"
             info={paragraph2}
             src="./images/asl2.png"
-            toLink="./portofolio"
+            toLink="./portfolio"
           />
           <Card
             className={classes["info-img-left-wrapper"]}
             header="Remote Services"
             info={paragraph1}
             src="./images/passionate1.jpeg"
-            toLink="./portofolio"
+            toLink="./portfolio"
           />
           <Card
             className={classes["info-img-right-wrapper"]}
             header="In-Person Services"
             info={paragraph2}
             src="./images/passionate2.png"
-            toLink="./portofolio"
+            toLink="./portfolio"
           />
           <Card
             className={classes["info-img-left-wrapper"]}
             header="Experience"
             info={paragraph2}
             src="./images/compassion1.png"
-            toLink="./portofolio"
+            toLink="./portfolio"
           />
 
           {/* <BackgroundLogo /><NavLink className={classes["learn-more"]} to="/portfolio">
