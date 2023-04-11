@@ -1,0 +1,16 @@
+.services-submenu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  position: absolute;
+  list-style: none;
+  background-color: #fefefe;
+  border-top: grey solid 1px;
+}
+
+.services-submenu li {
+  cursor: pointer;
+}

@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import classes from "./NavLinks.module.css";
+import Dropdown from "../../Dropdown/Dropdown";
 
 const NavLinks = () => {
+  const [dropdown, setDropdown] = useState(false);
+
   return (
     <div className={classes["navlink-wrapper"]}>
       <NavLink className={classes.pang} to="/">
@@ -16,6 +19,17 @@ const NavLinks = () => {
         <NavLink className={classes.link} to="/portfolio">
           Portfolio
         </NavLink>
+
+        <div className={classes["service-dropdown"]}>
+          <NavLink
+            className={classes.link}
+            onClick={() => setDropdown((prev) => !prev)}
+          >
+            Services
+          </NavLink>
+          {dropdown && <Dropdown />}
+        </div>
+
         <NavLink className={classes.link} to="/resume">
           Resume
         </NavLink>
